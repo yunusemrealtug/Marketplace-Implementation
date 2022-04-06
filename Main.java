@@ -26,7 +26,7 @@ public class Main {
 		Market m1=new Market(transactionFee);
 		int numberOfPCoinUsers=in.nextInt();
 		int numberOfQueries=in.nextInt();
-		ArrayList<Trader> traders=new ArrayList();
+		ArrayList<Trader> traders=new ArrayList<Trader>();
 		
 		for (int i = 0; i < numberOfPCoinUsers ; i++) {
 			Trader t1=new Trader (in.nextInt(), in.nextInt());
